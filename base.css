@@ -1,0 +1,117 @@
+body {
+  background-image: url("images/bg-pattern-desktop.svg");
+  height: 100px;
+}
+.first {
+  color: hsl(0, 36%, 70%);
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 20%;
+  padding-bottom: 0%;
+}
+img {
+  padding-left: 20%;
+  padding-bottom: 7%;
+}
+.second {
+  font-size: 40px;
+  padding-left: 20%;
+  padding-top: 0%;
+  font-family: "Josefin Sans", sans-serif;
+}
+.third {
+  font-size: 40px;
+  padding-left: 20%;
+  padding-top: 0%;
+  font-family: "Josefin Sans", sans-serif;
+}
+span.fourth {
+  color: hsl(0, 36%, 70%);
+  padding-left: 20%;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+span.fifth {
+  color: hsl(0, 36%, 70%);
+  padding-left: 20%;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.sixth {
+  color: hsl(0, 36%, 70%);
+  padding-left: 20%;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+#hero {
+  position: relative;
+  padding-left: 600px;
+  bottom: 350px;
+}
+.form {
+  position: relative;
+  bottom: 800px;
+  right: 100px;
+}
+input {
+  height: 45px;
+  width: 400px;
+  background: transparent;
+  border: hsl(0, 36%, 70%) 1px solid;
+  border-radius: 30px;
+  margin-left: 350px;
+  padding-left: 30px;
+}
+::placeholder {
+  color: #ce9797;
+}
+button {
+  position: relative;
+  right: 75px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  width: 70px;
+  height: 45px;
+  background-image: linear-gradient(to right, #dbbdbd, #ce9797);
+}
+
+button:hover{
+      color: hsl(167, 40%, 24%);
+      transform: scale(1.1);}
+
+
+@media only screen and (max-width: 600px) {
+    input {
+  height: 42px;
+  width: 300px;
+  background: transparent;
+  border: hsl(0, 36%, 70%) 1px solid;
+  border-radius: 30px;
+  margin-left: 181px;
+  padding-left: 30px;
+  margin-top: 18px;
+
+  }
+
+    button {
+  position: absolute;
+  left:95%;
+  top: 28%;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  width: 70px;
+  height: 45px;
+  background-image: linear-gradient(to right, #dbbdbd, #ce9797);
+}
+
+  .hero_image {
+  max-width: 50%;
+  height: 10%;
+   }
+ 
+
+  }
